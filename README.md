@@ -1,31 +1,31 @@
+# 🎮 Video Game Sales Analysis: Ice Store Strategic Planning
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-# Video Game Sales Analysis (Ice Store)
+## 📌 Project Overview
+This data-driven study identifies patterns that determine the success of video games to optimize the **2017 advertising strategy** for the "Ice" online store. By analyzing historical data up to 2016, we evaluate platform lifecycles, regional consumer profiles, and the impact of professional vs. user reviews.
 
-## Project Overview
-This project focuses on identifying patterns that determine whether a video game will be a success or a failure. By analyzing historical data from 2016 and earlier, we aim to spot potential big winners and plan advertising campaigns for 2017 for the online store "Ice".
+## 🎯 Objectives & Deliverables
+* **Platform Lifecycle:** Identification of rising and declining platforms (PS4/Xbox One vs. older generations).
+* **Regional Profiling:** Comparison of market preferences between **North America (NA)**, **Europe (EU)**, and **Japan (JP)**.
+* **Correlation Analysis:** Evaluating how expert (Critic Score) and user (User Score) reviews influence global sales.
+* **Statistical Validation:** Testing hypotheses regarding user ratings across different genres and platforms.
 
-## Objectives
-* Analyze the life cycle of different gaming platforms.
-* Correlate expert and user reviews with sales performance.
-* Create a regional profile for North America, Europe, and Japan.
-* Conduct statistical hypothesis testing on user ratings.
+## 🧪 Statistical Hypothesis Testing
+To ensure data-driven decisions, I conducted formal hypothesis testing:
+1. **Platform Comparison:** "Are average user ratings for Xbox One and PC the same?" (**Result:** Failed to reject $H_0$, suggesting no significant difference).
+2. **Genre Comparison:** "Are average user ratings for Action and Sports genres different?" (**Result:** Rejected $H_0$, confirming a statistically significant difference).
 
-## Key Findings
-* **Platforms:** PS4 and Xbox One are the current market leaders in growth, while the Nintendo 3DS remains dominant in the Japanese market.
-* **Regional Differences:** Western markets (NA/EU) prefer Action and Shooter games, whereas the Japanese market is driven by Role-Playing Games (RPGs).
-* **Statistics:** We confirmed that there is a significant difference in user ratings between Action and Sports genres, but no significant difference between Xbox One and PC ratings.
+## 📊 Key Findings
+* **Market Dynamics:** Western markets are driven by Action/Shooters, while Japan is dominated by RPGs and portable consoles like the Nintendo 3DS.
+* **Review Impact:** Professional critic scores show a stronger correlation with high sales than user scores.
+* **Strategy:** Recommended focus on PS4 and Xbox One for global campaigns, with a specific handheld/RPG focus for the Japanese market.
 
-## Technologies Used
-* Python
-* Pandas & NumPy (Data Manipulation)
-* Matplotlib & Seaborn (Data Visualization)
-* SciPy (Statistical Analysis)
-
-## How to Run
-1. Clone this repository.
-2. Ensure you have the libraries installed: `pip install pandas matplotlib seaborn scipy`.
-3. Open the notebook in the `notebooks/analysis_en.ipynb` folder.
+## 🛠️ How to Use
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/rogeriobarberi-sys/video-game-sales-analysis.git](https://github.com/rogeriobarberi-sys/video-game-sales-analysis.git)
+   cd video-game-sales-analysis
